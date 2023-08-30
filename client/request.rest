@@ -1,0 +1,12 @@
+get http://127.0.0.1:5174/todos
+###
+
+post http://127.0.0.1:5174/new
+Content-Type: application/json
+
+{
+    "text" : "dddddd"
+}
+
+
+
