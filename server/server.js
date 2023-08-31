@@ -49,7 +49,7 @@ app.delete('/deletetodo/:id' , async (req ,res) => {
    
 }) 
 
-app.put('/update/:id' , async(req , res) => {
+app.put('/complete/:id' , async(req , res) => {
     try {
       const id = req.params.id
       const todo = await Todo.findById({_id : id})

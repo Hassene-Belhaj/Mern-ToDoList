@@ -4,11 +4,10 @@ post http://127.0.0.1:5174/newtodo
 Content-Type: application/json
 
 {
-    "text" : "delete to do"
+    "text" : "course react"
 }
 
 ###
 delete http://127.0.0.1:5174/deletetodo/64ef82304a989713ee2678bb
 ###
-put http://127.0.0.1:5174/update/64ef82304a989713ee2678bb
-
+put http://127.0.0.1:5174/complete/64f0dbf1645d58c57bfce6f8
